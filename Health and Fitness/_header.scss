@@ -1,0 +1,36 @@
+
+ .header{
+     
+    background:black;
+    display:flex;
+    justify-content: center;
+    padding:1rem;
+    width:100%;
+ 
+}
+
+.header h1{
+    text-shadow: 1px  2px 4px #fff;
+    font-family: 'Newsreader', serif;
+     
+ 
+ 
+ 
+ }
+
+.header h1::first-letter{
+     
+     color:red;
+}
+ @media(min-width:800px){
+     .header{
+         width:1500px;
+     }
+ }
+ 
+
+  @media(min-width:1761px){
+     .header{
+          width:100%;
+      }
+ }

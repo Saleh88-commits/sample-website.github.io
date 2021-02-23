@@ -1,0 +1,40 @@
+.content7 h3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:35px;
+    font-family: 'Newsreader', serif;
+}
+.content7 img{
+    margin-top:10px;
+    display:flex;
+    justify-content: center;
+ }
+.content7 h4{
+    padding:0.544rem;
+     word-break:normal;
+    line-height:2rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align:justify;
+    font-size:1.06rem;
+
+}
+
+
+@media(min-width:700px){
+    .content7 img{
+        display:flex;
+        justify-content: center;
+        margin:auto;
+        margin-top:20px;
+     }
+    }
+    .content7 h4{
+       font-size:1rem;
+       padding:2rem;
+    }
+    .content7 h3{
+         font-size:2rem;
+         padding:2rem;
+
+    }

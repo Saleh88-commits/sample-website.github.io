@@ -1,0 +1,23 @@
+.content{
+    padding:10px;
+    margin-top:40px;
+    position:relative;
+    left:-4%;
+    font-family: 'Newsreader', serif;
+    background:#b2bec3;
+    margin-left:10px;
+}
+ 
+.content h1{
+    color:white;
+ 
+}
+
+@media(min-width:700px){
+    .content{
+        background:red;
+    }
+    .content h1{
+        text-align:center;
+     }
+}

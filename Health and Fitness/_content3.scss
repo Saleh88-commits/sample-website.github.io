@@ -1,0 +1,37 @@
+.content3 h3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:35px;
+    font-family: 'Newsreader', serif;
+}
+.content3 img{
+    margin-top:10px;
+    display:flex;
+    justify-content: center;
+ }
+.content3 h4{
+    padding:0.544rem;
+     word-break:normal;
+    line-height:2rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align:justify;
+    font-size:1.063rem;
+   }
+   @media(min-width:700px){
+    .content3 img{
+        display:flex;
+        justify-content: center;
+        margin:auto;
+    }
+}
+.content3 h4{
+   font-size:1rem;
+   padding:2rem;
+
+}
+.content3 h3{
+     font-size:2rem;
+     padding:2rem;
+
+}

@@ -1,0 +1,36 @@
+.content2 h3{
+    display:flex;
+    justify-content: center;
+    padding:1rem;
+     
+    
+}
+.content2 h4{
+ word-break:normal;
+ line-height:2rem;
+ font-family: 'Open Sans', sans-serif;
+ text-align:justify;
+ font-size:1.063rem;
+ padding:0.544rem;
+}
+.content2 img{
+ margin-top:10px;
+ display:flex;
+ justify-content: center;
+
+}
+ @media(min-width:700px){
+     .content2 img{
+         display:flex;
+         justify-content: center;
+         margin:auto;
+     }
+     .content2 h4{
+        font-size:2rem;
+        padding:2rem;
+     }
+     .content2 h3{
+          font-size:4rem;
+          padding:2rem;
+     }
+ }
